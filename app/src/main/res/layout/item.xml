@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="#CADDE1"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgProductt"
+            android:layout_width="122dp"
+            android:layout_height="127dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/caybacha" />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tenkhoahoclist"
+                android:textColor="#300606"
+                android:text="BẠC HÀ"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tenthuonggoilist"
+                android:paddingTop="5dp"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:text="Tên khác: Bạc hà nam, nạt nặm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/maulalist"
+                android:textSize="15dp"
+                android:paddingTop="5dp"
+                android:textColor="#000000"
+                android:text="Bộ phận dùng: Bộ phận trên mặt đất"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textSize="15dp"
+                android:paddingTop="5dp"
+                android:textColor="#000000"
+                android:text="Công năng, chủ trị: Sơ phong, thanh nhiệt, thấu chẩn, sơ can,"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

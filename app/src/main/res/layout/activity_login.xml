@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="546dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/yte3" />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:hint="Email"
+        android:background="@drawable/edt_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/passWord"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:hint="Password"
+        android:background="@drawable/edt_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="116dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/resetPassword"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Reset Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/nextSignUp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="SING UP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
